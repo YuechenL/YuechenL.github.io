@@ -1,0 +1,105 @@
+/* Style the header */
+.header {
+    background: lightblue;
+    color: black;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+.header h1 {
+    font-size: 60px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.header a {
+    float: right;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding: 50px 16px;
+    text-decoration: none;
+}
+
+.header b {
+    float: right;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding: 50px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 50px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.header a:hover, .dropdown:hover .dropbtn {
+    background-color: cornflowerblue;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 30px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+

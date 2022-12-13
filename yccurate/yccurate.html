@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header" id="myHeader">
+            <h1>Yccurate</h1>
+            <b href="#contact">Contact: (xxx)xxx-xxxx</b>
+            <div class="dropdown">
+                <button class="dropbtn">Service
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a href="#company">About</a>
+            <a href="#company">Company</a>
+        </div>
+        <div class=""content>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+            <p>1</p>
+            <p>10</p>
+            <p>100</p>
+            <p>1000</p>
+            <p>10000</p>
+            <p>100000</p>
+            <p>1000000</p>
+
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+    </body>
+</html>
