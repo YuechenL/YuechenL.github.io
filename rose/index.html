@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <brand>Rose Something</brand>
+        <contact>
+            WeChat: rosesomething000
+            <br>
+            Instagram: rosesomething000
+            <br>
+            小红书: rosesomething000
+        </contact>
+    </div>
+    <div class="display">
+        <one>
+            <img src="../MilkteaImage/TaroMT.jpg" alt="Sunright Taro Milktea" width="500">
+            <br>
+            <product>35 Roses in Heart-Shape Box</product>
+            <br>
+            <price>$100</price> 
+        </one>
+        <two>
+            <img src="../MilkteaImage/bb-cb.jpeg" alt="Boba Bliss Crème Brûlée" width="500">
+            <br>
+            <product>55 Roses in Heart-Shape Box</product>
+            <br>
+            <price>$135</price> 
+        </two>
+        <three>
+            <img src="../MilkteaImage/TaroMT.jpg" alt="Sunright Taro Milktea" width="500">
+            <br>
+            <product>35 Roses in Heart-Shape Box</product>
+            <br>
+            <price>$100</price> 
+        </three>
+        <four>
+            <img src="../MilkteaImage/bb-cb.jpeg" alt="Boba Bliss Crème Brûlée" width="500">
+            <br>
+            <product>55 Roses in Heart-Shape Box</product>
+            <br>
+            <price>$135</price> 
+        </four>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            header.classList.add("sticky");
+        }
+    </script>
+</body>
+
+</html>
