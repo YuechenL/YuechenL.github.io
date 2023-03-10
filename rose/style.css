@@ -14,10 +14,10 @@
 
 .header contact {
     float: right;
-    font-size: 30px;
+    font-size: 20px;
     color: #EEB600;
     text-align: right;
-    padding: 10px 16px;
+    padding: 20px 20px;
 }
 
 .sticky {
@@ -41,11 +41,6 @@ body {
             'three four';
     }
 
-    .display item {
-        padding-top: 50px;
-        /* text-align: left; */
-    }
-
     .display product {
         font-size: 20px;
         color: #EEB610;
@@ -64,7 +59,7 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
-        grid-column-gap: 50px;
+        grid-column-gap: 100px;
         grid-template-areas:
             'one'
             'two'
